@@ -20,15 +20,15 @@ $(document).ready(function(){
 
     if (bad > good) {
       $("span#fortune").text(badFortune);
-      $("span#fortune").fadeIn(1000);
+      $("div#fortunejumbo").fadeIn(1000);
     }
     else if (bad < good) {
       $("span#fortune").text(goodFortune);
-      $("span#fortune").fadeIn(1000);
+      $("div#fortunejumbo").fadeIn(1000);
     }
     if (bad === good) {
       $("span#fortune").text(neutralFortune);
-      $("span#fortune").fadeIn(1000);
+      $("div#fortunejumbo").fadeIn(1000);
     }
 
 

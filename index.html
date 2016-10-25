@@ -3,45 +3,48 @@
   <head>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Fortunate Fortunes</title>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Fortunate Fortunes</h1>
-        <h3>Guiding you forward</h3>
-        <h3>One fortune at a time</h3>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3>Check each situation/event you have experienced in the last 6 months,<br>
-          then click "Tell Me My Fortune!".</h3>
+    <div class="bg">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Fortunate Fortunes</h1>
+          <h3>Guiding you forward</h3>
+          <h3>One fortune at a time</h3>
         </div>
-        <div class="panel-body">
-          <form id="luck-form">
-            <input type="checkbox" name="bluck" value="1"> Spent too much money at Urban Outfitters<br>
-            <input type="checkbox" name="bluck" value="1"> Wrecked your fixie bike<br>
-            <input type="checkbox" name="bluck" value="1"> Scratched your Bon Iver vinyl<br>
-            <input type="checkbox" name="bluck" value="1"> Spilled your Readymade Organic Artisan Coffee<br>
-            <input type="checkbox" name="bluck" value="1"> Arctic Monkeys show was sold out<br>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3>Check each situation/event you have experienced in the last 6 months,<br>
+            then click "Tell Me My Fortune!".</h3>
+          </div>
+          <div class="panel-body">
+            <form id="luck-form">
+              <input type="checkbox" name="gluck" value="1"> Waxed your sweet handlebar 'stache<br>
+              <input type="checkbox" name="bluck" value="1"> Spent too much money at Urban Outfitters<br>
+              <input type="checkbox" name="gluck" value="1"> Scored tickets to Arcade Fire at Coachella<br>
+              <input type="checkbox" name="bluck" value="1"> Wrecked your fixie bike<br>
+              <input type="checkbox" name="gluck" value="1"> Cuffed your jeans just right<br>
+              <input type="checkbox" name="bluck" value="1"> Scratched your Bon Iver vinyl<br>
+              <input type="checkbox" name="bluck" value="1"> Spilled your Readymade Organic Artisan Coffee<br>
+              <input type="checkbox" name="gluck" value="1"> Discovered a band no one's probably ever heard of<br>
+              <input type="checkbox" name="bluck" value="1"> Arctic Monkeys show was sold out<br>
+              <input type="checkbox" name="gluck" value="1"> Picked up a sweet vintage Pendleton<br>
 
-            <input type="checkbox" name="gluck" value="1"> Discovered a band they probably haven't heard of<br>
-            <input type="checkbox" name="gluck" value="1"> Picked up a sweet vintage Pendleton<br>
-            <input type="checkbox" name="gluck" value="1"> Scored tickets to Arcade Fire at Coachella<br>
-            <input type="checkbox" name="gluck" value="1"> Waxed your sweet handlebar stache<br>
-            <input type="checkbox" name="gluck" value="1"> Cuffed your jeans just right<br>
-          <br>
-          <button type="submit" id="button1" class="btn btn-info">Tell Me My Fortune!</button>
-        </form>
-        <span id="fortune">
-        </span>
+              <br>
+              <button type="submit" id="button1" class="btn btn-info">Tell Me My Fortune!</button>
+            </form>
+
+          </div>
 
         </div>
-
+        <div class="jumbotron" id="fortunejumbo">
+          <h2><span id="fortune"></span></h2>
+        </div>
       </div>
-
     </div>
   </body>
 </html>
