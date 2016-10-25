@@ -1,3 +1,24 @@
-body {
+.jumbotron {
   text-align: center;
+}
+
+.panel-heading {
+  text-align: center;
+}
+#luck-form {
+  margin: auto;
+  font-size: 1.35em;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#button1 {
+  width: 100%;
+}
+
+#fortune {
+  display: none; 
 }
